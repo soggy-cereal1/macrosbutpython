@@ -9,7 +9,7 @@ def tabrefresh(index):
     time.sleep(1)
 
     pyautogui.typewrite("https://discord.com/channels/@me \n", 0)
-    time.sleep(10)
+    time.sleep(7)
     pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
     time.sleep(1)
 
