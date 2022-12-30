@@ -18,7 +18,7 @@ pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
 # switch to discord.com/channels/@me at that point under All(no DM open)
 
 pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
-for i in range (1,9999):
+for i in range (1,10000):
     if (len(str(i)) == 1):    
        if ((i-1)%3 != 0):
             pyautogui.click(500, 300, 3, 0.2, button='left')
