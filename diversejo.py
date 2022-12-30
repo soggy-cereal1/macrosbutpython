@@ -9,22 +9,23 @@ def tabrefresh(index):
     time.sleep(1)
 
     pyautogui.typewrite("https://discord.com/channels/@me \n", 0)
-    time.sleep(7)
-    pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
-    time.sleep(1)
+    time.sleep(5)
+    #pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
+    #time.sleep(1)
 
 time.sleep(3)
-pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
+# pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
 # switch to discord.com/channels/@me at that point under All(no DM open)
 
-pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
-for i in range (1,10000):
+# the above is extraneous because(if - that's my alt) you have no friends
+
+for i in range (2401,9999):
     if (len(str(i)) == 1):    
        if ((i-1)%3 != 0):
             pyautogui.click(500, 300, 3, 0.2, button='left')
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
-            pyautogui.typewrite("DiverseJo#000" + str(i) + "\n", 0)
+            pyautogui.typewrite("ParalelUs#000" + str(i) + "\n", 0)
             time.sleep(2)
 
        else:
@@ -34,7 +35,7 @@ for i in range (1,10000):
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
 
-            pyautogui.typewrite("DiverseJo#000" + str(i) + "\n", 0)
+            pyautogui.typewrite("ParalelUs#000" + str(i) + "\n", 0)
             time.sleep(2)
 
     elif (len(str(i)) == 2):
@@ -42,7 +43,7 @@ for i in range (1,10000):
             pyautogui.click(500, 300, 3, 0.2, button='left')
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
-            pyautogui.typewrite("DiverseJo#00" + str(i) + "\n", 0)
+            pyautogui.typewrite("ParalelUs#00" + str(i) + "\n", 0)
             time.sleep(2)
         else:
             tabrefresh(i)
@@ -50,35 +51,35 @@ for i in range (1,10000):
             pyautogui.click(500, 300, 3, 0.2, button='left')
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
-            pyautogui.typewrite("DiverseJo#00" + str(i) + "\n", 0)
+            pyautogui.typewrite("ParalelUs#00" + str(i) + "\n", 0)
             time.sleep(2)
     elif (len(str(i)) == 3):
         if ((i-1)%3 != 0):
             pyautogui.click(500, 300, 3, 0.2, button='left')
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
-            pyautogui.typewrite("DiverseJo#0" + str(i) + "\n", 0)
-            time.sleep(2)
+            pyautogui.typewrite("ParalelUs#0" + str(i) + "\n", 0)
+            time.sleep(2.5)
         else:
             tabrefresh(i)
             
             pyautogui.click(500, 300, 3, 0.2, button='left')
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
-            pyautogui.typewrite("DiverseJo#0" + str(i) + "\n", 0)
-            time.sleep(2)
+            pyautogui.typewrite("ParalelUs#0" + str(i) + "\n", 0)
+            time.sleep(2.5)
     elif (len(str(i)) == 4):
         if ((i-1)%3 != 0):
             pyautogui.click(500, 300, 3, 0.2, button='left')
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
-            pyautogui.typewrite("DiverseJo#" + str(i) + "\n", 0)
-            time.sleep(2)
+            pyautogui.typewrite("ParalelUs#" + str(i) + "\n", 0)
+            time.sleep(2.5)
         else:
             tabrefresh(i)
 
             pyautogui.click(500, 300, 3, 0.2, button='left')
             pyautogui.hotkey('command', 'a')
             pyautogui.typewrite(['backspace'], 0)
-            pyautogui.typewrite("DiverseJo#" + str(i) + "\n", 0)
-            time.sleep(2)
+            pyautogui.typewrite("ParalelUs#" + str(i) + "\n", 0)
+            time.sleep(2.5)
