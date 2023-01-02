@@ -17,9 +17,9 @@ time.sleep(3)
 # pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
 # switch to discord.com/channels/@me at that point under All(no DM open)
 
-# the above is extraneous because(if - that's my alt) you have no friends
+# the above is extraneous because you have no friends
 
-for i in range (2401,9999):
+for i in range (2361,6767):
     if (len(str(i)) == 1):    
        if ((i-1)%3 != 0):
             pyautogui.click(500, 300, 3, 0.2, button='left')
