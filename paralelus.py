@@ -3,7 +3,7 @@ import time
 
 username = 'ParalelUs'
 
-def tabrefresh(index):   
+def tabrefresh():   
     pyautogui.hotkey('command', 't') # open new tab when discord stops this from working
     pyautogui.hotkey('command', '1') # how to implement in below?
     pyautogui.hotkey('command', 'w')
@@ -48,7 +48,7 @@ for i in range (2851,6767):
             time.sleep(2.5)
 
        else:
-            tabrefresh(i)
+            tabrefresh()
 
             clear()
 
@@ -66,7 +66,7 @@ for i in range (2851,6767):
             log()
             time.sleep(2.5)
         else:
-            tabrefresh(i)
+            tabrefresh()
 
             clear()
 
@@ -83,7 +83,7 @@ for i in range (2851,6767):
             log()
             time.sleep(2.5)
         else:
-            tabrefresh(i)
+            tabrefresh()
             
             clear()
 
@@ -100,7 +100,7 @@ for i in range (2851,6767):
             log()
             time.sleep(2.5)
         else:
-            tabrefresh(i)
+            tabrefresh()
 
             clear()
 
