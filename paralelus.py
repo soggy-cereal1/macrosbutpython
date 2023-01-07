@@ -10,7 +10,7 @@ def tabrefresh():
 
     time.sleep(1)
 
-    pyautogui.typewrite("https://discord.com/channels/@me \n", 0)
+    pyautogui.typewrite("https://discord.com/channels/@me \n")
     time.sleep(5)
     pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
     #time.sleep(1)
@@ -30,7 +30,7 @@ def log():
 def clear():
     pyautogui.click(500, 300, 3, 0.2, button='left')
     pyautogui.hotkey('command', 'a')
-    pyautogui.typewrite(['backspace'], 0)
+    pyautogui.typewrite(['backspace'])
 
 time.sleep(3)
 pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
@@ -42,7 +42,7 @@ for i in range (4001,6767):
     if (len(str(i)) == 1):    
        if ((i-1)%3 != 0):
             clear()
-            pyautogui.typewrite(username + "#000" + str(i), 0) 
+            pyautogui.typewrite(username + "#000" + str(i)) 
 
             log()
             time.sleep(2.5)
@@ -52,7 +52,7 @@ for i in range (4001,6767):
 
             clear()
 
-            pyautogui.typewrite(username + "#000" + str(i), 0)
+            pyautogui.typewrite(username + "#000" + str(i))
 
             log()
             time.sleep(2.5)
@@ -61,7 +61,7 @@ for i in range (4001,6767):
         if ((i-1)%3 != 0):
             clear()
 
-            pyautogui.typewrite(username + "#00" + str(i), 0)
+            pyautogui.typewrite(username + "#00" + str(i))
             
             log()
             time.sleep(2.5)
@@ -70,7 +70,7 @@ for i in range (4001,6767):
 
             clear()
 
-            pyautogui.typewrite(username + "#00" + str(i), 0)
+            pyautogui.typewrite(username + "#00" + str(i))
 
             log()
             time.sleep(2.5)
@@ -78,7 +78,7 @@ for i in range (4001,6767):
         if ((i-1)%3 != 0):
             clear()
 
-            pyautogui.typewrite(username + "#0" + str(i), 0)
+            pyautogui.typewrite(username + "#0" + str(i))
 
             log()
             time.sleep(2.5)
@@ -87,7 +87,7 @@ for i in range (4001,6767):
             
             clear()
 
-            pyautogui.typewrite(username+ "#0" + str(i), 0)
+            pyautogui.typewrite(username+ "#0" + str(i))
 
             log()
             time.sleep(2.5)
@@ -95,7 +95,7 @@ for i in range (4001,6767):
         if ((i-1)%3 != 0):
             clear()
 
-            pyautogui.typewrite(username + "#" + str(i), 0)
+            pyautogui.typewrite(username + "#" + str(i))
 
             log()
             time.sleep(2.5)
@@ -104,7 +104,7 @@ for i in range (4001,6767):
 
             clear()
 
-            pyautogui.typewrite(username + "#" + str(i), 0)
+            pyautogui.typewrite(username + "#" + str(i))
 
             log()
             time.sleep(2.5)
