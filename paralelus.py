@@ -38,7 +38,7 @@ pyautogui.click(778, 160, 1, 0, button='left') # clicks Add Friend
 
 # the above is extraneous if you have no friends
 
-for i in range (4001,6767):
+for i in range (4338,6767):
     if (len(str(i)) == 1):    
        if ((i-1)%3 != 0):
             clear()
